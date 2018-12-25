@@ -16,5 +16,5 @@ pip3 install -f requirements.txt
 ```
 execute with 
 ```bash
-python3 python3 talkcards.py
+python3 talkcards.py
 ```
