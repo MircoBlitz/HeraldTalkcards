@@ -1,12 +1,11 @@
 # Herald Talkcard Generator
 This project is a rough python project to merge halfnarp and chaos west json files and dump them as pdf of json file  
 
-BETA: only listing and file export availiable as of now
+BETA: no pdf yet. odt works
 
 ##ToDo
-* DIN-A5 pdf template
-* DIN-A4 pdf template
-* beautify input
+* DIN-A4 odt template
+* convert odt to pdf
 
 ## usage
 1. clone the repo

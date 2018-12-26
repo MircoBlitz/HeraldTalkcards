@@ -30,9 +30,9 @@ class Cards:
             data = {
                 blockID: {
                     "day": day,
-                    "start": start_time.strftime("%H:%M:%S"),
-                    "end": end_time.strftime("%H:%M:%S"),
-                    "duration": str(duration) + "min",
+                    "start": start_time.strftime("%H:%M"),
+                    "end": end_time.strftime("%H:%M"),
+                    "duration": str(duration) + "m",
                     "block": block,
                     "speaker": element["speaker_names"],
                     "room": element["room_name"],
@@ -160,7 +160,7 @@ class Cards:
                             "day": day,
                             "start": start_time.strftime("%H:%M:%S"),
                             "end": end_time.strftime("%H:%M:%S"),
-                            "duration": str(duration) + "min",
+                            "duration": str(duration) + "m",
                             "block": block,
                             "speaker": speaker,
                             "room": talk["room"],
