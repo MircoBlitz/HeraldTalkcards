@@ -8,6 +8,7 @@ BETA: no pdf yet. odt works
 * convert odt to pdf
 
 ## usage
+0. install libreOfiice (for printing)
 1. clone the repo
 2. cd into repo
 ```bash
